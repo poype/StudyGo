@@ -16,7 +16,7 @@ const (
 	small = 1
 )
 
-func main() {
+func main2() {
 	// %T 类型， %v对应 值
 	fmt.Printf("Type: %T Value: %v\n", ToBe, ToBe)
 	fmt.Printf("Type: %T Value: %v\n", MaxInt, MaxInt)
