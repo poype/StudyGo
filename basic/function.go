@@ -34,7 +34,7 @@ func takeMaxMin(nums [5]int) (max, min int) {
 var java, golang, rust bool
 
 // 只有 main package 下的main函数才能被执行
-func main() {
+func main1() {
 	fmt.Println(add(1, 2))
 
 	a, b, c, d := calculate(8, 4)
