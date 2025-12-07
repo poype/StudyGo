@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func main() {
+func main5() {
 	num := rand.Int() % 10
 	fmt.Println(num)
 
