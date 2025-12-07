@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main3() {
 	// 没有() ， {}是必须的
 	for i := 0; i < 10; i++ {
 		// i 变量只在for代码块内可见
