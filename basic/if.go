@@ -5,7 +5,7 @@ import (
 	"math/rand"
 )
 
-func main() {
+func main4() {
 	num := rand.Int()
 
 	fmt.Println(num)
