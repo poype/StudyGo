@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main1() {
 	var i = 100
 	// *int 类型，跟C语言比是反着的，这里的 *int 无需明确指定
 	var p *int = &i
