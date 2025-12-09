@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main2() {
 	p := Point{1, 2}
 	fmt.Println(p)
 	// 注意这里p不是指针
