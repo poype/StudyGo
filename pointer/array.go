@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main3() {
 	// An array's length is part of its type, so arrays cannot be resized.
 	// 不用显示构建一个数组对象就能对其进行赋值
 	var words [2]string
