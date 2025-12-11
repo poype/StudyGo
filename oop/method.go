@@ -59,6 +59,17 @@ func main() {
 	var f MyFloat = -4.0
 	fmt.Println(f.Abs())
 
+	// methods with pointer receivers take either a value or a pointer as the receiver when they are called
 	v.Scale(10)
 	fmt.Println(v.Abs())
+
+	var p *Vertex = &Vertex{3, 4}
+	p.Scale(10)
+	fmt.Println(p.Abs())
 }
+
+/*
+	There are two reasons to use a pointer receiver.
+	The first is that the method can modify the value that its receiver points to.
+	The second is to avoid copying the value on each method call. This can be more efficient if the receiver is a large struct.
+*/
