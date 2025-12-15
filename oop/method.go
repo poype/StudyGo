@@ -52,7 +52,7 @@ func (f MyFloat) Abs() float64 {
 //	func (f string) Abs() float64 {
 //		 return f
 //	}
-func main() {
+func main1() {
 	v := Vertex{3, 4}
 	fmt.Println(v.Abs())
 
