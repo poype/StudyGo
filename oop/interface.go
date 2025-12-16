@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main2() {
 	// Interface values with nil underlying values
 	var p Abser
 	fmt.Printf("%T\n", p) // <nil>
