@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main3() {
 	var i interface{} = "Hello"
 
 	// This statement asserts that the interface value i holds the concrete type string
