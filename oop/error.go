@@ -30,7 +30,7 @@ func run() error {
 	}
 }
 
-func main() {
+func main6() {
 	if err := run(); err != nil {
 		fmt.Println(err)
 	}
