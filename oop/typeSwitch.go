@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main4() {
 	do(21)
 	do("Test String")
 	do(3.1415926)
