@@ -23,7 +23,7 @@ func sport[T Runner](pet T) {
 	pet.Run()
 }
 
-func main() {
+func main1() {
 	cat := &Cat{}
 	dog := &Dog{}
 	// dog2 := Dog{}
