@@ -16,7 +16,7 @@ func sum(s []int, c chan int) {
 	c <- sum
 }
 
-func main() {
+func main2() {
 	s := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 	ch := make(chan int)
 
