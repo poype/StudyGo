@@ -10,7 +10,7 @@ func genInt(ch chan int) {
 	close(ch)
 }
 
-func main() {
+func main3() {
 	ch := make(chan int, 3)
 	go genInt(ch)
 
