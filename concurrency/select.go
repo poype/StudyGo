@@ -53,6 +53,9 @@ func main() {
 				ch2Down = true
 			}
 			fmt.Println("ch2: ", y)
+		default:
+			// 没有任何case ready就执行default，default导致select永远不会被block，这里会疯狂的打印“default case”
+			fmt.Println("default case")
 		}
 		if ch1Down && ch2Down {
 			return
