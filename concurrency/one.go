@@ -14,7 +14,7 @@ func say(s string) {
 
 // A goroutine is a lightweight thread managed by the Go runtime.
 
-func main() {
+func main1() {
 	// execution in the new goroutine, but the evaluation in the current goroutine
 	go say("world")
 	say("hello")
