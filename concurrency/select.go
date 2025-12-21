@@ -31,7 +31,7 @@ func producer2(ch chan int) {
 	}
 }
 
-func main() {
+func main4() {
 	ch1, ch2 := make(chan int), make(chan int)
 	go producer1(ch1)
 	go producer2(ch2)
