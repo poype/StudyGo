@@ -1,6 +1,9 @@
 package main
 
+import "fmt"
+
 func main() {
-	relations := [][]string{{"A", "B"}, {"B", "C"}, {"D", "E"}, {"G", "H"}, {"G", "I"}, {"I", "O"}}
-	friendCircle(relations)
+	nums := []int{1, 0, 0, 0}
+	moveZeroes(nums)
+	fmt.Println(nums)
 }
