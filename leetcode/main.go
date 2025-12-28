@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(max(10, 20))
+	fmt.Println(addBinary("01", "1"))
 }
